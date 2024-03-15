@@ -1,0 +1,39 @@
+.loginComponent{
+    background-color: rgb(249, 253, 255);
+    height: 100vh;
+}
+
+.logo{
+    font-size: 28px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.iconLogo{
+    color: rgb(58, 196, 255);
+}
+
+.formStyle{
+    border-radius: 6px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(163,163,163,1);
+}
+.formStyle h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(53, 52, 52);
+}
+.loginBtn{
+    color: white;
+    background-color: rgb(58, 196, 255);
+}
+.loginBtn:focus {
+    color: white; 
+    background-color: rgb(58, 196, 255); 
+    border-color: none; 
+    box-shadow: none;
+}

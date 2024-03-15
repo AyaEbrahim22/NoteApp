@@ -1,0 +1,64 @@
+.topSide{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(58, 196, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sidebar{
+    background-color: rgba(18, 25, 32, 0.932);
+    height: calc(100vh - 50px);
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding: 15px 0;
+}
+.logo{
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.iconLogo{
+    color: rgb(58, 196, 255);
+}
+.listItems{
+    padding-left: 0;
+    list-style: none;
+    color: white;
+}
+.listItem{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-block: 10px;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.listItem:hover{
+    background-color: rgba(18, 25, 32, 0.418);;
+}
+.addNoteBtn{
+    font-weight: 500;
+    border: 2px solid transparent;
+    background-color: rgb(58, 196, 255);
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 90px;
+    transition: all .3s ease-in-out;
+}
+.addNoteBtn:hover{
+    border: 2px solid rgb(58, 196, 255);
+    color: rgb(58, 196, 255);
+}
